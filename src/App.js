@@ -97,8 +97,9 @@ export class App extends Component {
 
     render() {
         return <React.Fragment>
-            <div className="jumbotron">
-                <h3 className="display-4"> <img className="imagenTitulo" src="../images/logo-icon-flau.png"></img>VIPE FLIGHT SCANNER</h3>
+            <div className="jumbotron1">
+                <h3 className="display-5"> <img className="imagenTitulo" src="../images/logo-icon-flau.png"></img>VIPE FLIGHT SCANNER</h3>
+                <p className="lead">Plataforma de compra de billetes mediante smart contract</p>
             </div>
 
             <div className="row">            
@@ -143,10 +144,9 @@ export class App extends Component {
                                     <div id="price">
                                         <h2>Precio</h2>
                                         <p>{this.toEther(flight.price)} ETH</p>
-                                        <button className="btn btn-lg btn-success text-white" onClick={() => this.buyFlight(i, flight)}>Comprar vuelo</button>
-                                    </div>
-                                    
-                                </div>   
+                                        <button className="btn btn-sm btn-success text-white" onClick={() => this.buyFlight(i, flight)}>Comprar vuelo</button>
+                                    </div>                                    
+                                </div>                                  
                             </div>
                         })}
                     </Panel3>

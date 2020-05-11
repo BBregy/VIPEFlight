@@ -2,12 +2,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>The airline</title>
+<title>VIPE Flight Scanner</title>
 <link rel="shortcut icon" type="image/png" href="../images/favicon-flau.png"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <style>
+       
     div {
         margin-bottom: 5px;      
     }
@@ -19,36 +20,47 @@
     }
 
     #caja { width: 100%; float: left; }
-    #cajaVuelos { width: 100%; height: 100px; display: inline-block; }
+    #cajaVuelos { height: 110px; display: inline-block; border-bottom: 1px solid #CCC; margin-bottom: 5px; width: 400px; }
 
     #info {
        padding: 12px; 
        width: 50%;   
-       float: left;         
+       height: 150px;
+       float: left;     
+       border: 1px solid #CCC;
+       border-radius: 3px;    
     }
     #price {
        padding: 12px;
        margin-left: 10px;
        width: 20%;
+       height: 150px;;
        float: left;                
        text-align: center;
+       border: 1px solid #CCC;
+       border-radius: 3px;
     }
-    #price h2 { font-size: 2vw; }
+    #price h2 { font-size: 26px; }
     .imagenTitulo { margin-right: 10px; }
 
-    #imagen { width: 100px; height: 100px; float: left; height: 200px;}
+    #imagen { float: left;}
     #hora { margin-left: 20px; width: 100px; float: left;}
-    #hora h2 { font-size: 2vw;}
+    #hora h2 { font-size: 26px; }
     #destino { margin-left: 20px; width: 150px; float: left;}
-    #destino h2 { font-size: 2vw;}
+    #destino h2 { font-size: 26px; }
 
     #loyalty { width: 20%; padding: 12px; float: left;}
-    #loyalty h2 { font-size: 2vw;}
+    #loyalty h2 { font-size: 26px;}
     #botonRefund { width: 20%; padding: 12px; float: left;}
 
     #tuDestino { margin-left: 20px;  float: left; padding-top: 35px;}
     #tuHora { margin-left: 20px; float: left; padding-top: 35px;}
-    
+    .jumbotron1 {
+        padding: 2rem 2rem;
+        background-color: #e9ecef;
+        border-radius: .3rem;
+        margin-bottom: 2rem;
+    }
 </style>
 
 </head>
