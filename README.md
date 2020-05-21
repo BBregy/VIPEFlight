@@ -13,7 +13,7 @@
 
 ## Los componentes principales de la Dapp
 
-<img src="https://miro.medium.com/proxy/1*pC2oiZ-7eZV1R9awbPO7eQ.png">
+<img src="https://miro.medium.com/proxy/1*pC2oiZ-7eZV1R9awbPO7eQ.png" height="180" width="450">
 
 **Lista de componentes:**
 
