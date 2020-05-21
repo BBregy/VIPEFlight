@@ -7,9 +7,9 @@
 
 **Es una aplicacción Web descentralizado desarrollada con React.js y mediate Smarts contracts de Ethereum**
 
-<img src="http://introtocrypto.com/wp-content/uploads/2017/08/ether@2x.png" height="128" width="128">
+<img src="http://introtocrypto.com/wp-content/uploads/2017/08/ether@2x.png" height="128" width="128"> <img src="https://cdn.worldvectorlogo.com/logos/react.svg" height="140" width="200">
 
-<img src="https://cdn.worldvectorlogo.com/logos/react.svg" height="140" width="200">
+
 
 ## Los componentes principales de la Dapp
 
