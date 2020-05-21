@@ -11,7 +11,7 @@
 
 <img src="https://leanmind.es/images/min/react.png" height="140" width="200">
 
-##Los componentes principales de la Dapp
+## Los componentes principales de la Dapp
 
 <img src="https://miro.medium.com/proxy/1*pC2oiZ-7eZV1R9awbPO7eQ.png">
 
