@@ -26,7 +26,7 @@
 * Web Interface: React.js
 
 ## Arquitectura
-<img src="https://miro.medium.com/max/1040/1*7VYq1n8vlxcQIPhgOsx6Mw.png">
+<img src="https://miro.medium.com/max/1040/1*7VYq1n8vlxcQIPhgOsx6Mw.png" height="340" width="600">
 
 
 ### Dependencias:
