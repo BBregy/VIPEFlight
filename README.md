@@ -23,7 +23,7 @@
 * Smart Contract Language : Solidty
 * Library : Web3.js
 * Ethereum Blockchain Simulator : Ganach-cli
-*  Web Interface: React.js
+* Web Interface: React.js
 
 ## Arquitectura
 <img src="https://miro.medium.com/max/1040/1*7VYq1n8vlxcQIPhgOsx6Mw.png">
