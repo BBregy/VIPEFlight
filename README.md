@@ -37,3 +37,10 @@
 * Ganache versión 6.9.1
 * React versión 10.4.2
 * Metamask pluggin browser
+
+### Pasos a seguir para desplegar el proyecto.
+* Instalar node la verión indicada. (Si ya existe una versión de node porsterior, se aconseja instalar nvm para la gestión de versiones node)
+* Descargar e instalar ganache y levantar el servicio por el puerto por defecto.
+* Intalar la extensión Metamask en nuestro navegador.
+* Una vez clonado el repo, en la carpeta raiz lanzar el comando npm install.
+* Finalmente para ejecutar el proyecto lanzar npm start.
